@@ -4,8 +4,7 @@ import Logo from "@/components/Globais/Logo";
 import Input from "@/components/Globais/Input";
 import Checkmark from "@/components/Globais/Checkmark";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Login() {
 
