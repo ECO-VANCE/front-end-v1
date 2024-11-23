@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "EcoVance",
   description: "EcoVance: Energia Sustentável, Futuro Responsável.",
+  icons: [ { url: "/Logo-Icon.svg" } ],
 };
 
 export default function RootLayout({
