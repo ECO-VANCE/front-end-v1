@@ -15,7 +15,7 @@
 
 ## 🚩 Youtube
 
-Segue link do Youtube para visualização da explicação [LINK](LINK)
+Segue link do Youtube para visualização da explicação [https://youtu.be/jwzp1El3B8E](https://youtu.be/jwzp1El3B8E)
 <p align="right"><a href="#readme-top">Voltar ao topo</a></p>
 
 ## 🚩 Vercel
