@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.item-1 {
+    @apply flex flex-col w-auto h-auto bg-bg_table_gray rounded-[30px] border-2 border-border_gray p-5;
+}
+
+.item-2 {
+    @apply flex flex-col w-auto h-auto bg-bg_table_gray rounded-[30px] border-2 border-border_gray p-5;
+}
+
+.item-3 {
+    @apply flex flex-col w-auto h-auto bg-bg_table_gray rounded-[30px] border-2 border-border_gray p-5;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    @apply bg-bg_black_2;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--tw-color-3);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--tw-color-7);
+    background-color: var(--tw-color-3);
+    box-shadow: 0px 4px 0px 0px var(--tw-color-7);
+}
+
+.checkbox input:checked ~ .checkmark {
+    background-color: var(--tw-color-5)
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox .checkmark:after {
+    left: 4px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    background-image: url('/icon-correct.svg');
+    background-repeat: no-repeat;
+}
